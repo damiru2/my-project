@@ -1,7 +1,7 @@
 import React from "react"
 import * as ReactDOMClient from 'react-dom/client';
 
-const inputClick = () => console.log("Clicked");
+const inputClick = () => console.log("clicked");
 const mouseOver = () => console.log("Mouse Over");
 
 const elements = <input placeholder = "Help text" onClick={inputClick} onMouseEnter={mouseOver} />
