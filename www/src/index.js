@@ -1,12 +1,11 @@
 import React from "react"
 import * as ReactDOMClient from 'react-dom/client';
+import App from './App'
+import './css/main.css'
 
-const inputClick = () => console.log("clicked");
-const mouseOver = () => console.log("Mouse Over");
 
-const elements = <input placeholder = "Help text" onClick={inputClick} onMouseEnter={mouseOver} />
 const app = ReactDOMClient.createRoot(document.getElementById("app"))
 
-app.render(elements)
+app.render(<App />)
 
 
